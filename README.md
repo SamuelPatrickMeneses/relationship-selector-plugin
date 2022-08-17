@@ -5,7 +5,7 @@ A plugin to select adjacent elements in Tailwind.
 ## How to install
 
 ```bash
-    npm install https://github.com/remy/nodemon.git
+    npm install https://github.com/SamuelPatrickMeneses/relationship-selector-plugin.git
 ```
 ## User guide
 
