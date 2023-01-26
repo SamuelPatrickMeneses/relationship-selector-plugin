@@ -23,8 +23,8 @@ module.exports = {
   plugins: [
     plugin({
         nex: ['div', 'p'], // specific elements
-        bro: ['.some-class','text-sm'], // specific classes
-        son: ['li#id'], // compound selectors
+        sib: ['.some-class','text-sm'], // specific classes
+        chi: ['li#id'], // compound selectors
         dow: ['*'] // select all descendants
     }
     )],
@@ -34,8 +34,8 @@ module.exports = {
 ### Added prefixes
 
  - nex:tailwind-class == tailwind-class + selectors-setted
- - bro:tailwind-class == tailwind-class ~ selectors-setted
- - son:tailwind-class == tailwind-class > selectors-setted
+ - sib:tailwind-class == tailwind-class ~ selectors-setted
+ - chi:tailwind-class == tailwind-class > selectors-setted
  - dow:tailwind-class == tailwind-class selectors-setted
 
 
