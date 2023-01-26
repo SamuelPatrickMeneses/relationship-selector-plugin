@@ -8,10 +8,10 @@ const conteiner =  function(rules){
         function({addVariant}){
             if(conteiner.nex instanceof Array)
                 conteiner.nex.forEach((e) => addVariant('nex',`& + ${e}`));
-            if(conteiner.bro instanceof Array)
-                conteiner.bro.forEach((e) => addVariant('bro',`& ~ ${e}`));
-            if(conteiner.son instanceof Array)
-                conteiner.son.forEach((e) => addVariant('son',`& > ${e}`));
+            if(conteiner.sib instanceof Array)
+                conteiner.sib.forEach((e) => addVariant('sib',`& ~ ${e}`));
+            if(conteiner.chi instanceof Array)
+                conteiner.chi.forEach((e) => addVariant('chi',`& > ${e}`));
             if(conteiner.dow instanceof Array)
                 conteiner.dow.forEach((e) => addVariant('dow',`& ${e}`));
         }
@@ -19,8 +19,8 @@ const conteiner =  function(rules){
 };
 
 conteiner.nex = [];
-conteiner.bro = [];//brother
-conteiner.son = [];
+conteiner.sib = [];//brother
+conteiner.chi = [];
 conteiner.dow = [];// downward 
 
 module.exports = conteiner;
